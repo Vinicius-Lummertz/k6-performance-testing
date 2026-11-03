@@ -27,7 +27,7 @@ export function handleSummary(data) {
 }
 
 export default function () {
-  const baseUrl = 'https://test.k6.io/';
+  const baseUrl = 'https://github.com/';
 
   const params = {
     headers: {
