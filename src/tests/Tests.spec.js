@@ -14,8 +14,10 @@ export const options = {
     content_OK: ['rate>0.95']
   },
   stages: [
-    { duration: '5s', target: 2 },
-    { duration: '5s', target: 6 }
+    { duration: '5s', target: 5 },
+    { duration: '5s', target: 10 },
+    { duration: '5s', target: 50 },
+    { duration: '5s', target: 100 },
   ]
 };
 
